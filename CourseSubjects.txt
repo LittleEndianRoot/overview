@@ -1,0 +1,62 @@
+Embedded Systems Engineering (Specialist Diploma)
+
+My current list of subjects and the topics they cover.
+
+ET4725 Operating Systems
+- Processes - general concepts, states, queues, ps, signals etc.
+- Scheduling - basic concepts round-robin etc.
+- The bash shell, basic commands including grep.
+- Shell: sed, awk, variables etc.
+- Shell: arithmetic (quick treatment) and programming constructs.. for, while, if, .. etc.
+- C concurrent processes, IPC pipes.
+- Virutalisation: more concept and examples including storage.
+- More on bash shell: date, arrays, functions, dd etc.
+- File systems: basic disk drive technology and performance.
+- More on UNIX files, file operations, protection etc.
+- File systems: the FAT file system and the basic i-node file system.
+- C programming: using the compiler, command line, argc and argv etc.
+- POSIX file system calls.
+- Writing a bash command from scratch.
+- Concept of threads.
+- Overview of Windows as a threaded OS.
+- Wider applications of Linux OS: embedded systems, automotive, IoT etc.
+
+
+
+ED5502 Digital Systems 4
+- Microprocessor hardware systems.
+- DRAMs.
+- Memory interfaces, I/O interfacing - serial and parallel interfaces.
+- Interrupts, Bus standards, Bus cycle timing.
+- Typical peripheral interfaces including ADC and DAC converters.
+- Practical: Use of development environment (ARM STM32 / Arduino) to code, simulate, test and debug assembly / C code.
+
+
+
+EE6422 Real Time System Design
+- Scheduling Algorithms: Clock-driven, Earliest deadline first, Rate monotonic, Resource allocation.
+- Programming language features for real-time support: for concurrency, synchronisation, hard-scheduling etc.
+- Study of features of languages such as C++, Ada, Modula-2, Chill etc.
+- Operating System Features: to define a real-time operating system, Emphasis is on embedded systems.
+- Design Approaches: Time continuous data flow, event flow and control transformation, State transtion diagram representation, Design approaches eg. DARTS.
+- Design and MOdeling using Petri Nets: Modeling of concurrent systems states and events using Petri-nets which include temporal properties in the model.
+- Design and Analysis using RTL: Introduction to real-time logic, RTL, Application of RTL, Real-time temporal logic. State Machines and Real-time temporal logic.
+- Real-Time Program Verification: Testing methods, Risk calculation, Static analysis, Simulation as a verification tool.
+
+
+
+
+ED5031 Software Engineering
+- Software Engineering and Ethical Responsibilities.
+- Software Processes for software production.
+- Requirements Engineering and Systems Models.
+- Project Management.
+- Object-Oriented design with the UML - Unified Modeling Launguage.
+- Design with reuse.
+- Individual/Team Project/Case Study to complete a Software design/management document.
+
+
+
+IE2011 Industry-based project (Individual or Team)
+- Students to identify a suitable project (expectation: a review of any embedded system related topic/technique/design)
+- Outcome: A conference-style paper (e.g. 6-8 IEEE format pages) + presentation at a mock conference held for all students (attendance compulsory)  
