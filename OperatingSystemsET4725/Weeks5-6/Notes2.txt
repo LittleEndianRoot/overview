@@ -1,0 +1,6 @@
+Bash debugger
+
+- bash -x SCRIPTNAME
+
+
+For the Assignment3 use LOCAL variable in functions with the local keyword, marks are deducted if they are global within functions

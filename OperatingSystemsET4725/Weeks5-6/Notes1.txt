@@ -1,0 +1,21 @@
+Linux scheduler - CFC 
+
+Pre-Emptive  - clock based(each program gets time allocated on the CPU)
+
+Non-Preemptive - not clock based(task can run to completion) 
+
+Scheduling note - different power modes, different priorities(from kernal space and user space)[Handled by the OS]
+
+ATT - Average Turn-around Time
+
+Priority Based Scheduling - After a certain number of ticks on the CPU, if a process is not completed, the OS will raise the priority level of that process. 
+
+LINUX USER SPACE
+20 priority levels
+0 -> 19
+0 being the highest, 19 being the lowest
+
+LINUX KERNAL SPACE
+20 priority levels
+-20 -> -1
+-20 being the top priority, -1 being the lowest

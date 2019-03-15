@@ -1,0 +1,10 @@
+#! /bin/bash
+
+name_greet()
+{
+	echo -e "\nThe number of positional parameters is: \e[1mS#\e[0m."
+	echo -e "Hello $1\t$2!\n\n"
+}
+
+name_greet Ringo John
+name_greet Jimbo Jones
