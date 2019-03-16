@@ -1,0 +1,43 @@
+- Went to virtualbox.org/wiki/Linux_Downloads
+- Downloaded VirtualBox 6.0.2 for Ubuntu 18.04 /18.10/ Deb10
+- on the Terminal: cd ~/Downloads/
+- dpkg -i virtualbox-6.0_6.0.2-128262_Ubuntu_bionic_amd64.deb
+- sudo !! to run this command as root
+- errors installing virtualbox (needed libqt5opengl5 to install) OpenGL
+- installed OpenGL5
+- used dpkg to install virtualbox
+- Went to lubuntu.me/downloads
+- Downloaded 18.04 LTS 64bit version
+- Created a profile for the virtual machine
+- Initial settings 
+			general >> Basic: 
+				Name: lubuntu18.04.1LTS
+				Type: Linux
+				Version: Ubuntu (64-bit)
+			System >> Acceleration:
+				VTx/AMD-V, Nested Paging, KVM Paravirtualization
+- Ran into an error on bootup: This kernal requires an x86-64 CPU, but only detected an i686 CPU.
+  - Turned on Acceleration settings but not supported.
+  - checked my systems processor architecture using Neofetch and uname -m
+  - it was x86-64, so I downloaded the 32bit version of lubuntu to check if that would work.
+  - got a new error about PAE in the bios.
+  - booted into the bios and found Virtualization turned off. 
+  - switch back to the 64bit lubuntu, worked. 
+- Installed the lubuntu OS
+- created a primary partition mounted at / root, and a swp partition of 2GB
+- Ran into a problem with mounting a shared folder between the two systems
+  - Solving the issue with guest addons
+  - Insert guest add-ons CD image
+  - There were some issues also with installing the GAs, so I needed to activate the root account
+	- Activating the root account by giving it a password with the passwd command
+		passwd root
+  - When I got access to running the GAs scripts I ran the VBoxLinuxAdditions.run script with 
+    ./VBoxAdditions.run
+- Ran into another error when the chown command and the usermod commands would not give access to the sf_VirtualBoxShare mount point, the permissions were set as user:root and group:svboxsf.
+  - The way around this was to add my user account the the svboxsf group with the adduser command
+  - sudo adduser grahamclaffey vboxsf
+- The list of commands that I used:
+  - ps -ef | grep -i "VBox" and ps -ej | grep -i "VBox", ls -l, whoami, uname -m, manpages, dpkg, apt, 
+   
+
+- Completed all the tasks. 
