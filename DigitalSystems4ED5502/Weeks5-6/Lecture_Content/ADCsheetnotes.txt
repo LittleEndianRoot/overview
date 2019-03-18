@@ -1,0 +1,6 @@
+VDDA = Analogue Voltage
+Successive Approximation - compares the voltage input against the Vref/2 recursivly
+S/H amplifier - gets a snapshot of the Vin and compares it with the Vref in the ADC
+SAR = Successive Approximation
+PA0 - the blue pot on the shield
+

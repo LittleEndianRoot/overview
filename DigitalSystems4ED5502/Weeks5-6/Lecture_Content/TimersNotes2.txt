@@ -1,0 +1,3 @@
+in STM documentation for other products like the STM32Fxxx they refer to SR(status register), but for the STML4xxx family, this is known as the ISR(interrupt and status register)
+
+ARR = auto reload register
